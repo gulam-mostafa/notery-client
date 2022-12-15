@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Final({ postData }) {
   console.log(postData)
@@ -32,9 +32,9 @@ export default function Final({ postData }) {
             Congratulations!
             <p> Your Account has been created.</p>
           </div> : <div className="mt-3 text-xl font-semibold uppercase text-red-500">
-            Error
+           Loading
             <p>
-              Account Create unsuccessful
+            <button className="btn btn-square loading"></button>
             </p>
           </div>
 
@@ -45,7 +45,13 @@ export default function Final({ postData }) {
             Close
           </button>
         </a>
-        <a className="btn my-4" href="/output">Go to Details</a>
+        <Link
+          to="/output"
+         
+          className="text-2xl hover:text-red-700"
+        >
+          Go Details
+        </Link>
       </div>
     </div>
   );
