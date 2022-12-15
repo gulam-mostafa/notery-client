@@ -11,12 +11,12 @@ export default function Account({ setAccount }) {
 
     const { name, value } = e.target;
     setUserData({ ...userData, [name]: value });
-   
 
 
 
 
-    setAccount({ ...userData, [name]: value ,   createdAt: new Date().toISOString()});
+
+    setAccount({ ...userData, [name]: value, createdAt: new Date().toISOString() });
   };
 
 
@@ -68,7 +68,7 @@ export default function Account({ setAccount }) {
               <p className="font-bold">No of Extra Signatures</p>
               <p>Please enter Zero, if only one signature is required</p>
             </div>
-            <input required  onBlur={handleChange} name='sign' className="w-28" type="text" />
+            <input required onBlur={handleChange} name='sign' className="w-28" type="text" />
           </div>
           {/* input 2  */}
           <div className="flex justify-between mx-2 mt-8">
@@ -76,7 +76,7 @@ export default function Account({ setAccount }) {
               <p>How Many files will you be </p>
               <p>uploading in the session</p>
             </div>
-            <input required  onBlur={handleChange} name='file' className="w-28" type="text" />
+            <input required onBlur={handleChange} name='file' className="w-28" type="text" />
           </div>
           {/* input 3  */}
           <div className="flex justify-between mx-2 mt-8">
@@ -84,7 +84,7 @@ export default function Account({ setAccount }) {
               <p>Number of Signers</p>
 
             </div>
-            <input required  onBlur={handleChange} name='singer' className="w-28" type="text" />
+            <input required onBlur={handleChange} name='singer' className="w-28" type="text" />
           </div>
           {/* input 4  */}
           <div className="flex justify-between mx-2 mt-8">
@@ -92,7 +92,7 @@ export default function Account({ setAccount }) {
               <p className="font-bold">Do You need Witness?</p>
               <p>Do not enter anything if you're bring your own witness </p>
             </div>
-            <input required   onBlur={handleChange} name='witness' className="w-28" type="text" />
+            <input required onBlur={handleChange} name='witness' className="w-28" type="text" />
           </div>
         </div>
         <p className="text-2xl font-bold text-end px-2 my-8">Your Approximate Quote: $ 59</p>

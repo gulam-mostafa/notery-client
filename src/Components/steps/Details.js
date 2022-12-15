@@ -22,7 +22,7 @@ export default function Details({ setAccount }) {
             <span className="label-text">Your Name</span>
           </label>
           <label className="input-group input-group-vertical">
-            <input required  type="text" placeholder="Type Your name" onBlur={handleChange} name='name' className="input input-bordered" />
+            <input required type="text" placeholder="Type Your name" onBlur={handleChange} name='name' className="input input-bordered" />
           </label>
         </div>
         {/* phone */}
@@ -31,7 +31,7 @@ export default function Details({ setAccount }) {
             <span className="label-text">Your Phone</span>
           </label>
           <label className="input-group input-group-vertical">
-            <input required  onBlur={handleChange} name='phone' type="text" placeholder="Type Your phone" className="input input-bordered" />
+            <input required onBlur={handleChange} name='phone' type="text" placeholder="Type Your phone" className="input input-bordered" />
           </label>
         </div>
         {/* name  */}
@@ -40,7 +40,7 @@ export default function Details({ setAccount }) {
             <span className="label-text">Your Email</span>
           </label>
           <label className="input-group input-group-vertical">
-            <input required  onBlur={handleChange} name='email' type="text" placeholder="Type Your email" className="input input-bordered" />
+            <input required onBlur={handleChange} name='email' type="text" placeholder="Type Your email" className="input input-bordered" />
           </label>
         </div>
       </div>
@@ -57,7 +57,7 @@ export default function Details({ setAccount }) {
             <span className="label-text">Company name</span>
           </label>
           <label className="input-group input-group-vertical">
-            <input required  type="text" onBlur={handleChange} name='company' placeholder="Type company name" className="input input-bordered" />
+            <input required type="text" onBlur={handleChange} name='company' placeholder="Type company name" className="input input-bordered" />
           </label>
         </div>
         {/* phone */}
@@ -66,7 +66,7 @@ export default function Details({ setAccount }) {
             <span className="label-text">Agent Name</span>
           </label>
           <label className="input-group input-group-vertical">
-            <input required  onBlur={handleChange} name='agent' type="text" placeholder="Type agent name" className="input input-bordered" />
+            <input required onBlur={handleChange} name='agent' type="text" placeholder="Type agent name" className="input input-bordered" />
           </label>
         </div>
         {/* name  */}
@@ -75,7 +75,7 @@ export default function Details({ setAccount }) {
             <span className="label-text">Your Email</span>
           </label>
           <label className="input-group input-group-vertical">
-            <input required  onBlur={handleChange} name='comEmail' type="text" placeholder="Type Your email" className="input input-bordered" />
+            <input required onBlur={handleChange} name='comEmail' type="text" placeholder="Type Your email" className="input input-bordered" />
           </label>
         </div>
         <div className="form-control">
@@ -83,7 +83,7 @@ export default function Details({ setAccount }) {
             <span className="label-text">Your phone</span>
           </label>
           <label className="input-group input-group-vertical">
-            <input required  onBlur={handleChange} name='comPhone' type="text" placeholder="Type Your phone" className="input input-bordered" />
+            <input required onBlur={handleChange} name='comPhone' type="text" placeholder="Type Your phone" className="input input-bordered" />
           </label>
         </div>
       </div>
@@ -100,7 +100,7 @@ export default function Details({ setAccount }) {
             <span className="label-text">Escrow#/ Loan No</span>
           </label>
           <label className="input-group input-group-vertical">
-            <input required  onBlur={handleChange} name='loanNo' type="text" placeholder="Type Your name" className="input input-bordered" />
+            <input required onBlur={handleChange} name='loanNo' type="text" placeholder="Type Your name" className="input input-bordered" />
           </label>
         </div>
         {/* phone */}
@@ -109,14 +109,14 @@ export default function Details({ setAccount }) {
             <span className="label-text">Property Address</span>
           </label>
           <label className="input-group input-group-vertical">
-            <input required  onBlur={handleChange} name='propertyAdd' type="text" placeholder="Type Property address" className="input input-bordered" />
+            <input required onBlur={handleChange} name='propertyAdd' type="text" placeholder="Type Property address" className="input input-bordered" />
           </label>
         </div>
-        
+
       </div>
 
 
-      
+
     </div>
   );
 }

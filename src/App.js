@@ -20,10 +20,10 @@ function App() {
   console.log(account)
   console.log(postData)
   const steps = [
-    "Account Information",
-    "Personal Details",
-    "Payment",
-    "Complete",
+    "Step 1",
+    "Step 2",
+    "Step 3",
+    "Done",
   ];
 
 
@@ -53,11 +53,11 @@ function App() {
       headers: {
         "content-type": "application/json"
       },
-      body: JSON.stringify(  {account ,createdAt: new Date().toISOString()}   )
+      body: JSON.stringify({ account, createdAt: new Date().toISOString() })
     })
       .then(res => res.json())
       .then(data => {
-       
+
         setPostData(data)
 
 

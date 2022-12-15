@@ -13,7 +13,7 @@ const PageFooter = () => {
           href="https://flowbite.com"
           src="https://flowbite.com/docs/images/logo.svg"
           alt="Flowbite Logo"
-          name="Flowbite"
+          name=" Notary app"
         />
       </div>
       <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
@@ -21,7 +21,7 @@ const PageFooter = () => {
           <Footer.Title title="about" />
           <Footer.LinkGroup col={true}>
             <Footer.Link href="#">
-              Flowbite
+              Notary app
             </Footer.Link>
             <Footer.Link href="#">
               Tailwind CSS
